@@ -1,0 +1,14 @@
+package bai2;
+
+public class Student {
+	private String ten, diachi;
+	int tuoi, sdt;
+	
+	public Student() {
+		this.ten = ten;
+		this.tuoi = tuoi;
+		this.diachi = diachi;
+		this.sdt = sdt;
+	}
+	public 
+}

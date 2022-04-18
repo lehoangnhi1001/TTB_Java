@@ -1,0 +1,24 @@
+package bai4;
+
+import java.util.Scanner;
+
+public class Student extends Person {
+	float diemtoan, diemly, diemhoa;
+	int masv, lop;
+	double dtb;
+	void Nhap() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhập điểm toán: ");
+		this.diemtoan = sc.nextInt();
+		
+		System.out.println("Nhập điểm lý: ");
+		this.diemly = sc.nextInt();
+		
+		System.out.println("Nhập điểm hóa: ");
+		this.diemhoa = sc.nextInt();
+		
+	}
+	void Xuat() {
+		System.out.println("Điểm Toán: " + this.diemtoan + "Điểm Lý: " + this.diemly + "Điểm Hóa: " + this.diemhoa);
+	}
+}

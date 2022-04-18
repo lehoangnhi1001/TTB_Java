@@ -1,0 +1,27 @@
+package bai5;
+
+import java.util.Scanner;
+
+public class Circle extends hinh{
+	float bankinh;
+	final float PI = 3.14;
+	public Circle() {
+		ten = "Hình Tròn";
+	}
+	
+	void nhapBK() {
+		System.out.println("Bán kính: ");
+		Scanner sc = new Scanner(System.in);
+		bankinh = sc.nextFloat();
+		
+	}
+	
+	void tinhChuVi() {
+		chuVi = 2 * PI * bankinh;
+	}
+	
+	void tinhDienTich() {
+		dienTich = PI * bankinh* bankinh;
+	}
+
+}

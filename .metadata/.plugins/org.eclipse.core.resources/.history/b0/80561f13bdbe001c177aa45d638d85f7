@@ -1,0 +1,10 @@
+package bai4;
+
+public class Teacher extends Person {
+	public Teacher(String ten, int tuoi, int sdt) {
+		super(ten, tuoi, sdt);
+		// TODO Auto-generated constructor stub
+	}
+	int magv;
+	float luong;
+}
